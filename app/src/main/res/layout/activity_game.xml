@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_input_rounded"
+            android:backgroundTint="#FFFFFF"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvSkor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SKOR: 0"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#009688"/>
+
+            <TextView
+                android:id="@+id/tvNyawa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="❤️❤️❤️"
+                android:textSize="18sp"
+                android:textColor="#F44336"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:id="@+id/ivSoal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="fitCenter"
+                android:background="#FFFFFF"
+                android:padding="8dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/etJawaban"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_input_rounded"
+            android:hint="KETIK JAWABANMU..."
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnCek"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CEK JAWABAN"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#009688"
+            app:cornerRadius="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

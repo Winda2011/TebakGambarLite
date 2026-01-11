@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AYO KIRIMKAN IDE SOAL BUATANMU !"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_input_rounded"
+            android:hint="USERNAME FB/ TWITTER/ INSTAGRAM KAMU."
+            android:textColor="#000000"
+            android:textColorHint="#808080"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etEmailPengirim"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_input_rounded"
+            android:hint="EMAIL KAMU..."
+            android:textColor="#000000"
+            android:textColorHint="#808080"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <EditText
+                android:id="@+id/etKata1"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_input_rounded"
+                android:hint="KATA PERTAMA"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:paddingStart="16dp"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/etKata2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_input_rounded"
+                android:hint="KATA KEDUA"
+                android:textColor="#000000"
+                android:textColorHint="#808080"
+                android:paddingStart="16dp"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"/>
+        </LinearLayout>
+
+        <!-- Area Pratinjau Gambar -->
+        <ImageView
+            android:id="@+id/ivGambarPreview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/bg_input_rounded"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Tombol untuk Pilih Gambar -->
+        <Button
+            android:id="@+id/btnPilihGambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PILIH GAMBAR"
+            android:backgroundTint="#FFC107"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnKirimData"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="KIRIM"
+            android:textColor="#FFEB3B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00796B"
+            app:cornerRadius="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

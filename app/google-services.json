@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078379996714",
+    "project_id": "tebakgambarlite-7c2ee",
+    "storage_bucket": "tebakgambarlite-7c2ee.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078379996714:android:38f946a824ea7654350553",
+        "android_client_info": {
+          "package_name": "com.example.tebakgambarliteuas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD13uscS6Rs3uv5hHwGywFtEMcx-sfOcho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

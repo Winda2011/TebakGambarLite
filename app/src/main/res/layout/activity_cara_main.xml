@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARA MENEBAK GAMBAR?"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card_dark_teal"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• PERTAMA, IDENTIFIKASI DAN AMATI DULU GAMBARNYA."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• PERHATIKAN KETERANGAN DI SEKITAR APABILA ADA HURUF ATAU SUKU KATA TAMBAHAN."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• RANGKAILAH KATA TERSEBUT DENGAN GAMBAR YANG BERKAITAN."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• CONTOH :"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ima_jin_nasi"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PENJELASAN:\nIMA + JIN + NASI = IMAJINASI\nNAH, GAMPANG KAN!"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ATURAN PERMAINAN"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card_dark_teal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• DALAM PERMAINAN INI ADA BEBERAPA LEVEL, SETIAP LEVEL ADA 3 SOAL TEBAK GAMBAR."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• PEMAIN AKAN DIBEKALI 5 NYAWA. DAN SETIAP SALAH MENEBAK AKAN BERKURANG 1 NYAWA."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• SOAL DI SETIAP AKHIR LEVEL ADALAH RAJA GAMBAR. KALAHKAN RAJA GAMBAR UNTUK BISA KE LEVEL SELANJUTNYA."
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• SELAMAT BERMAIN !!"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
