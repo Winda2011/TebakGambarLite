@@ -5,10 +5,10 @@ Aplikasi game tebak gambar berbasis Android Kotlin yang dirancang sebagai game a
 Proyek ini dikembangkan untuk memenuhi Tugas Besar / Ujian Akhir Semester (UAS) Mata Kuliah Aplikasi Mobile 2.
 
 ## 👤 Identitas Pengembang
-* **Nama 1:** [Muh. Izmul Muflih] ([2304411380]) | [5K RPL 3]
-* **Nama 2:** [Winda Niurwanti] ([2304411794]) | [5K RPL 3]
+* **Nama 1:** Muh. Izmul Muflih 2304411380 | 5K RPL 3
+* **Nama 2:** Winda Niurwanti 2304411794 | 5K RPL 3
 * **Prodi:** Informatika - Universitas Cokroaminoto Palopo
-* **Tahun:** 2024
+* **Tahun:** 2026
 
 ## 📱 Deskripsi Aplikasi
 * **Nama Aplikasi:** Tebak Gambar Lite
