@@ -6,7 +6,7 @@ Proyek ini dikembangkan untuk memenuhi Tugas Besar / Ujian Akhir Semester (UAS) 
 
 ## 👤 Identitas Pengembang
 * **Nama 1:** Muh. Izmul Muflih 2304411380 | 5K RPL 3
-* **Nama 2:** Winda Niurwanti 2304411794 | 5K RPL 3
+* **Nama 2:** Winda Nurwanti 2304411794 | 5K RPL 3
 * **Prodi:** Informatika - Universitas Cokroaminoto Palopo
 * **Tahun:** 2026
 
